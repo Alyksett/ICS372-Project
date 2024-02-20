@@ -2,6 +2,6 @@ module JavaFXDemo {
     requires javafx.controls;
     requires javafx.fxml;
 
-    opens edu.metrostate to javafx.fxml;
-    exports edu.metrostate;
+    opens aya.reviews to javafx.fxml;
+    exports aya.reviews;
 }
