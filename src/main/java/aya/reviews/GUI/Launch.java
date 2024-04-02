@@ -94,6 +94,7 @@ public class Launch extends Application{
         String user = this.userTextField.getText();
         String pass = this.pwBox.getText();
         Controller.onLoginAttempt(user, pass);
+
     }
 
     private void handleRegisterAttempt(){
